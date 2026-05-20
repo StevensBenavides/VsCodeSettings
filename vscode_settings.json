@@ -95,6 +95,22 @@
         "coverage": true,
         "__generated__": true,
         "tmp": true,
-        ".cache": true
+        ".cache": true,
+        "target": true,
+        ".target": true,
+    },
+    "search.exclude": {
+        ".git/objects": true,
+        ".git/subtree-cache": true,
+        "node_modules/*": true,
+        "dist": true,
+        "build": true,
+        ".vscode": true,
+        "coverage": true,
+        "__generated__": true,
+        "tmp": true,
+        ".cache": true,
+        "target": true,
+        ".target": true,
     }
 }

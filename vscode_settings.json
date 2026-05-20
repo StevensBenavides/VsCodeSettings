@@ -84,5 +84,17 @@
     "files.hotExit": "onExitAndWindowClose",
     "extensions.autoUpdate": false,
     "terminal.integrated.initialHint": false,
-    "cmake.showConfigureWithDebuggerNotification": false
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "files.watcherExclude": {
+        ".git/objects": true,
+        ".git/subtree-cache": true,
+        "node_modules/*": true,
+        "dist": true,
+        "build": true,
+        ".vscode": true,
+        "coverage": true,
+        "__generated__": true,
+        "tmp": true,
+        ".cache": true
+    }
 }

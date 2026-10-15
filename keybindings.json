@@ -1,0 +1,7 @@
+[
+    {
+        "key": "ctrl+alt+right",
+        "command": "expandLineSelection",
+        "when": "textInputFocus"
+    }
+]

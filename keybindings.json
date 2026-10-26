@@ -3,5 +3,15 @@
         "key": "ctrl+alt+right",
         "command": "expandLineSelection",
         "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "editor.action.smartSelect.expand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "-editor.action.smartSelect.expand",
+        "when": "editorTextFocus"
     }
 ]
